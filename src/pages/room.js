@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // นำเข้า Link จาก react-router-dom
+import { BrowserRouter } from 'react-router-dom';
 function Room() {
   return (
     <div className="container mt-5">
