@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom'; // นำเข้า Link จาก react-router-dom
 function Room() {
   return (
     <div className="container mt-5">
@@ -40,7 +40,7 @@ function Room() {
                   {/* Row for Rating and Button */}
                   <div className="d-flex align-items-center justify-content-between mt-3">
                     <p className="rating mb-0">คะแนน: ★★★★★</p>
-                    <a href="#" className="btn btn-danger w-25">เข้าสู่</a>
+                    <Link to="/room-detail1" className="btn btn-danger w-25">เข้าสู่</Link> {/* ใช้ Link แทน a */}
                   </div>
                 </div>
                 
