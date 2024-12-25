@@ -1,5 +1,5 @@
 import React from 'react';
-import roomImage from '../img/pexels-pixabay-258154.jpg';
+
 import { Link } from 'react-router-dom'; // นำเข้า Link จาก react-router-dom
 
 function RoomDetail1() {
@@ -22,16 +22,15 @@ function RoomDetail1() {
 
         {/* Image Gallery */}
         <div className="row">
-          <div className="col-12 mb-3">
-          <img src="/img/pexels.jpg" alt="Room Detail" className="img-fluid rounded" />
-          </div>
-          <div className="col-3">
-            <img
-              src="https://via.placeholder.com/150"
-              alt="Gallery Image"
-              className="img-fluid rounded"
-            />
-          </div>
+            <div className="d-flex ">
+                <div className="col-6 mb-3 mx-3">
+                    <img src="/img/pexels.jpg" alt="Gallery Image" className="img-fluid rounded" />
+                </div>
+                <div className="col-6 ">
+                    <img src="/img/hotel2.jpg" alt="Gallery Image" className="img-fluid rounded" />
+                </div>
+        </div>
+
           <div className="col-3">
             <img
               src="https://via.placeholder.com/150"
