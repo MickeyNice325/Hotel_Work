@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hotel_Workkakkak/static/css/main.5a2b9055.css",
+    "main.js": "/Hotel_Workkakkak/static/js/main.7c884bd7.js",
+    "static/js/453.ed3810f9.chunk.js": "/Hotel_Workkakkak/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Hotel_Workkakkak/index.html",
+    "main.5a2b9055.css.map": "/Hotel_Workkakkak/static/css/main.5a2b9055.css.map",
+    "main.7c884bd7.js.map": "/Hotel_Workkakkak/static/js/main.7c884bd7.js.map",
+    "453.ed3810f9.chunk.js.map": "/Hotel_Workkakkak/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a2b9055.css",
+    "static/js/main.7c884bd7.js"
+  ]
+}
